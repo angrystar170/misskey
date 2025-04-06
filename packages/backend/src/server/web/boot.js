@@ -127,11 +127,6 @@
 		document.documentElement.classList.add('useSystemFont');
 	}
 
-	const wallpaper = localStorage.getItem('wallpaper');
-	if (wallpaper) {
-		document.documentElement.style.backgroundImage = `url(${wallpaper})`;
-	}
-
 	const customCss = localStorage.getItem('customCss');
 	if (customCss && customCss.length > 0) {
 		const style = document.createElement('style');
@@ -221,6 +216,7 @@
 		errorsElement.appendChild(detailsElement);
 		addStyle(`
 		* {
+<<<<<<< HEAD
 			@font-face {
 			    font-family: 'ONEMobilePOP';
 			    src: url('https://misskey.njy17.kr/files/59eb8a17-25a9-4d85-afc0-62857d2e03fd') format('woff');
@@ -230,6 +226,18 @@
 
 			font-family: 'ONEMobilePOP', BIZ UDGothic, Roboto, HelveticaNeue, Arial, sans-serif;
 		}
+=======
+	      @font-face {
+	          font-family: 'ONEMobilePOP';
+	          src: url('https://misskey.njy17.kr/files/59eb8a17-25a9-4d85-afc0-62857d2e03fd') format('woff');
+	          font-weight: normal;
+	          font-style: normal;
+	      }
+
+        font-family: 'ONEMobilePOP', BIZ UDGothic, Roboto, HelveticaNeue, Arial, sans-serif;
+	  }
+
+>>>>>>> 601fc5b5114ec0a7c5adecf4e1380f781c2dd131
 
 		#misskey_app,
 		#splash {
