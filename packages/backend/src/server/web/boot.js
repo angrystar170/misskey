@@ -216,15 +216,15 @@
 		errorsElement.appendChild(detailsElement);
 		addStyle(`
 		* {
-		  	  @font-face {
-		  	      font-family: 'ONEMobilePOP';
-		  	      src: url('https://misskey.njy17.kr/files/59eb8a17-25a9-4d85-afc0-62857d2e03fd') format('woff');
-		  	      font-weight: normal;
-		  	      font-style: normal;
-	    	  }
+		    @font-face {
+		       font-family: 'ONEMobilePOP';
+		       src: url('https://misskey.njy17.kr/files/59eb8a17-25a9-4d85-afc0-62857d2e03fd') format('woff');
+		       font-weight: normal;
+		       font-style: normal;
+	    	}
 
 	        font-family: 'ONEMobilePOP', BIZ UDGothic, Roboto, HelveticaNeue, Arial, sans-serif;
-	  	}
+	  }
 
 
 		#misskey_app,
