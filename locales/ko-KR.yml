@@ -1359,7 +1359,7 @@ _chat:
   history: "이력"
   noHistory: "기록이 없습니다"
   noRooms: "룸이 없습니다"
-  inviteUser: "유저를 초대"
+  inviteUser: "유저 초대"
   sentInvitations: "초대를 보내기"
   join: "참여"
   ignore: "무시"
