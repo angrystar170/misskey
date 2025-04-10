@@ -1884,9 +1884,9 @@ _achievements:
   earnedAt: "달성 일시"
   _types:
     _notes1:
-      title: "체리픽 계정을 만들었어요"
+      title: "미스키 계정을 만들었어요"
       description: "첫 노트를 작성했어요!"
-      flavor: "Misskey에 어서 오세요!"
+      flavor: "미스키에 어서 오세요!"
     _notes10:
       title: "노트 조금"
       description: "10개의 노트를 작성했어요"
@@ -2965,6 +2965,7 @@ _notification:
     followRequestAccepted: "팔로우 요청이 승인됨"
     groupInvited: "그룹에 초대됨"
     roleAssigned: "역할이 할당됨"
+    chatRoomInvitationReceived: "채팅 방에 초대받음"
     achievementEarned: "도전 과제 획득"
     exportCompleted: "내보내기를 완료함"
     login: "로그인"
