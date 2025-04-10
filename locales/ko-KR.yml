@@ -430,6 +430,7 @@ uploadFromUrlMayTakeTime: "업로드가 완료될 때까지 약간의 시간이 
 explore: "둘러보기"
 messageRead: "읽음"
 noMoreHistory: "타임머신이 더 이상은 돌아갈 수 없대요!"
+startChat: "채팅 시작"
 nUsersRead: "{n}명이 읽음"
 agreeTo: "{0}에 동의"
 agree: "동의합니다"
