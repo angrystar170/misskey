@@ -1884,9 +1884,9 @@ _achievements:
   earnedAt: "달성 일시"
   _types:
     _notes1:
-      title: "미스키 계정을 만들었어요"
+      title: "Misskey 계정을 만들었어요"
       description: "첫 노트를 작성했어요!"
-      flavor: "미스키에 어서 오세요!"
+      flavor: "Misskey에 어서 오세요!"
     _notes10:
       title: "노트 조금"
       description: "10개의 노트를 작성했어요"
