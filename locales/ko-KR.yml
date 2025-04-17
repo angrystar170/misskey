@@ -3021,6 +3021,7 @@ _deck:
     mentions: "받은 멘션"
     direct: "다이렉트"
     roleTimeline: "역할 타임라인"
+    chat: "채팅"
 _dialog:
   charactersExceeded: "최대 글자수를 초과했어요! 현재 {current} / 최대 {max}"
   charactersBelow: "최소 글자수 미만이에요! 현재 {current} / 최소 {min}"
