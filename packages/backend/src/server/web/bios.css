@@ -4,8 +4,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
+@font-face {
+    font-family: 'ONEMobilePOP';
+    src: url('https://misskey.njy17.kr/files/8eba1893-fddc-4b2f-a0da-2afca851d170') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
-	font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
+	font-family: 'ONEMobilePOP', Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
 }
 
 html {
