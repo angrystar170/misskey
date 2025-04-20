@@ -27,10 +27,17 @@
 	background-color: var(--MI_THEME-accent);
 }
 
+@font-face {
+    font-family: 'ONEMobilePOP';
+    src: url('https://misskey.njy17.kr/files/8eba1893-fddc-4b2f-a0da-2afca851d170') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 	overflow: auto;
 	overflow-wrap: break-word;
-	font-family: 'Hiragino Maru Gothic Pro', "BIZ UDGothic", Roboto, HelveticaNeue, Arial, sans-serif;
+	font-family: 'ONEMobilePOP', 'Hiragino Maru Gothic Pro', "BIZ UDGothic", Roboto, HelveticaNeue, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.35;
 	text-size-adjust: 100%;
